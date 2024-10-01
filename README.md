@@ -18,9 +18,17 @@ This project is a full-featured Django-based blog website where users can:
 * pip (usually included with Python installation)
 * SQLite (included with Python installation)
 
-### Installation
+### Working Model
+https://github.com/user-attachments/assets/6eccac1d-00a6-4f0f-8965-edec145c985a
 
-1. **Clone the repository:**
+### Steps To Use
+1. Clone the repository: Download the repository from the specified URL using a Git client.
+2. Set Up a Virtual Environment (Recommended): Create a virtual environment to isolate project dependencies and avoid conflicts with other projects.
+3. Install Project Dependencies: Use pip to install the required packages listed in requirements.txt.
+4. Configure Database Settings: Edit mysite/settings.py and update the DATABASES section to use SQLite.
+5. Apply Database Migrations: Run makemigrations and migrate to create necessary database tables.
+6. Create a Superuser: Use createsuperuser to create an administrative user account.
+7. Start the Development Server: Run runserver to start the Django development server.
+8. Access the Website: Open your web browser and navigate to http://127.0.0.1:8000/.
 
-   ```bash
-   git clone https://your_repository_url.git
+
